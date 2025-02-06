@@ -1,7 +1,8 @@
 // My application
 import 'package:flutter/material.dart';
+//import 'package:login_signup_ui1/Login.dart';
 
-import 'MyHomePage.dart';
+import 'Login.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -20,15 +21,15 @@ class MyApp extends StatelessWidget {
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.blue,
+            backgroundColor: Colors.indigo,
             foregroundColor: Colors.white,
             elevation: 4.0,
           ),
         ),
       ),
-      title: 'Todo App 1',
+      title: 'Login Signup UI 1',
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
+      home: Login(),
     );
   }
 }
