@@ -1,8 +1,8 @@
 // My application
 import 'package:flutter/material.dart';
-//import 'package:login_signup_ui1/Login.dart';
 
 import 'Login.dart';
+import 'Signup.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       ),
       title: 'Login Signup UI 1',
       debugShowCheckedModeBanner: false,
-      home: Login(),
+      home: Signup(),
     );
   }
 }
